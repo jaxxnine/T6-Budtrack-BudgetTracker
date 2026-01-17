@@ -1,0 +1,51 @@
+body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 30px;
+      color: #8a8484;
+      background-color: #171717;
+      font-weight: bold;
+}
+h1 {
+    display: flex;     
+    text-align: center;      
+    justify-content: center;    
+    color:rgb(91, 245, 191);
+    padding-top: 300px;
+    font-size: 60px;
+}
+h2 {
+    color: #ffffff;
+    font-size: 70px;
+    margin: 10px;
+}
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page transition styles */
+#app {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+#app.fade-out {
+  opacity: 0;
+  transform: scale(0.98);
+}
+
+#app.fade-in {
+  opacity: 1;
+  transform: scale(1);
+}
+

@@ -1,0 +1,36 @@
+     .navBar {
+      background-color: rgb(91, 245, 191);
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+
+
+    .buttonRow {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      
+    }
+    .buttonRow button {
+      padding: 8px 12px;
+      border: none;
+      background-color: rgba(100, 100, 100, 0.542);
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+      transition:  0.3s ease;
+      font-size: 20px;
+    }
+  .buttonRow button:hover {
+      background-color: rgb(51, 133, 105);
+    }
+    
+  #balance {
+      margin-left: auto;
+      font-weight: bold;
+      font-size: 16px;
+      color: #333;
+    }
+
